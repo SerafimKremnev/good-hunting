@@ -1,0 +1,14 @@
+.top {
+    display: flex;
+    align-items: center;
+    gap: 4.3rem;
+    align-self: start;
+    margin-bottom: 4rem;
+}
+
+.main {
+    color: var(--gray);
+    font-size: 1.8rem;
+    line-height: 120%;
+    margin-left: 2.16rem;
+}

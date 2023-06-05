@@ -1,0 +1,32 @@
+.root {
+    display: grid;
+    gap: 15.5rem;
+}
+
+
+.camWrapper {
+    justify-self: center;
+    height: 12.4rem !important;
+    width: 12.4rem !important;
+}
+
+.buttons {
+    display: grid;
+    gap: 1.6rem;
+}
+
+.input {
+    padding: 2.4rem 2.9rem;
+    background: none;
+    border: 2px solid rgba(242, 242, 242, 0.12);
+    color: var(--white);
+    width: 100%;
+    border-radius: .8rem;
+    line-height: 85%;
+    font-size: 1.8rem;
+}
+
+.input:focus {
+    border-color: var(--white);
+    outline: none;
+}

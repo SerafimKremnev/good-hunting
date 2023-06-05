@@ -1,0 +1,9 @@
+:root {
+    --font-family: 'PP Radio Grotesk', sans-serif;
+    --primary: #333333;
+    --white: #F2F2F2;
+    --gray: #BDBDBD;
+    --transparent: rgba(242, 242, 242, 0.12);
+    --transparent-hover: rgba(242, 242, 242, 0.08);
+    --gray-dark: #4F4F4F;
+}

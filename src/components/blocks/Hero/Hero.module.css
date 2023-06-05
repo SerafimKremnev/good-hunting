@@ -1,0 +1,38 @@
+.root {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "title"
+        "."
+        "buttons"
+    ;
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+    width: 100%;
+    margin-top: 4rem;
+    color: var(--gray);
+
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5.2rem;
+    &>.inner {
+        display: flex;
+        gap: 1.7rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.buttons {
+    grid-area: buttons;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}

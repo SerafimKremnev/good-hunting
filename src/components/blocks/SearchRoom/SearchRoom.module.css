@@ -1,0 +1,56 @@
+.top {
+    display: flex;
+    align-items: center;
+    gap: 4.3rem;
+    align-self: start;
+
+}
+.root {
+    display: grid;
+    height: 100%;
+}
+
+
+.password {
+    display: flex;
+    align-items: center;
+    align-self: end;
+    margin-bottom: 20%;
+    justify-content: space-around;
+}
+.passWrapper {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .8rem
+}
+
+.key {
+    padding: 2.9rem;
+    background: var(--transparent);
+    transition: all .2s;
+    &:hover{
+        background: var(--transparent-hover);
+    }
+}
+
+.key:nth-child(10) {
+    grid-column: 2/3;
+}
+
+.clear {
+    grid-column: 3/4;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.num {
+    font-size: 4.4rem;
+}
