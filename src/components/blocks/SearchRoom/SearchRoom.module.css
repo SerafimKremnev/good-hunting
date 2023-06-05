@@ -21,6 +21,9 @@
 .passWrapper {
     width: 3.2rem;
     height: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .keys {
